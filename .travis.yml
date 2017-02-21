@@ -3,6 +3,9 @@ rvm:
 - 2.2.0
 sudo: false
 script: bundle exec rake deploy
+before_script:
+  - git config --global user.email "gerald.oyudo@gmail.com"
+  - git config --global user.name "Gerald Oyudo"
 env:
   global:
     secure: H9lPKgp9lyPDUaxrb4kyB1ibGdfnmlq3uFhXQs6P4XAX0Ci2SBe0nArxx4uU5G8F0aSwE1zm1BF3mF1mllXMhbaAVgJV8HGdWNAX6PYWB5n9ssMO1NFTfW2nR0UwmMeLlxNDPOGgcIcpnWQlmkYWMhHj05HS1dUHNDO9UVGgQ0Vw24gyqnwY8lWR6p3HzM6pt7M9MFszY0meMXD653MHi13woQ3Qy/cxMcXks8e8lhy+ZMraS7aWtGOmhHgsC3UUPkKe9IyeGxp2xW7XQ36XgythNFwG+RDBhAtn9lnskHmZP7hfVpfKCxqxVD0YJGukMp6Vx11797qQ6vqfqLqM8lpWPqZ829wFdapZQdHf5kGGWKaMA/y7UGYTgne9KVCl1piG1N8B962bLPJbuoarP3A+g+bx5aH3vmBP1iJvcxXXV9fXj3Zzoj5aoem2bTPGivsuH0s4XcXcNdoigIoZOLhCN2mvuHlKUs3w9x2USJWris0iGYFX87+fA06/c5f8TcnN8gm8Oi/pVXZJ8lT66TyWCRz/j9MZofK9fYvV3jxmqcnQxXscJUB0vcWBXdmnxt70lPqzImwg9LN7v+lpMfRWJMnLWf2GKy1hQb68rvCBNaiPof3vIPR/Th1lasDWG+QoPCZ/WATRCDJyg6nk3NYz/HXu3sG5ntuNs31vWqU=
